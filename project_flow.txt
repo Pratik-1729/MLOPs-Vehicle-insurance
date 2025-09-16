@@ -7,3 +7,19 @@
     add required modules to the requirements.txt
     Do "pip install -r requirements.txt"
 4. Do pip list on terminal to make sure all required packages installed.
+
+-----------------------------------------MongoDB setup--------------------------------------
+5. Signed up to MongoDB Atlas and created a new project in an organization by providing it a name of project.
+6. Create Cluster under the same project with desired name, select the resource and create deployment.
+7. Created a DB user, and we got an username and the password.(note it somewhere as it is required at the time of db connection).
+8. setup network access by selecting 0.0.0.0/0 as an IP address so that it can be access from anywhere.
+9. Get connection String with driver as python and a suitable version.(save it for later use).
+10. Created notebook folder and in that created mongodb_demo.ipynb also select kernel as python ->  vehicle_ins
+11. dataset added to notebook folder
+12.pushed data to MongoDB 
+
+------------------------------------------Logger, exception and notebook---------------------------------------
+1. write a logger file and test it on demo.py
+2. write an exception file and test it on demo.py
+3. EDA and feature eng. notebooks
+
