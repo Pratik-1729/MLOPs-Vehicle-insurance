@@ -1,0 +1,9 @@
+1.create project template by executing template.py file
+2. Write the code on setup.py and pyproject.toml file to import local packages
+3. Create virtual environment, activate it and install the requirements form requirements.txt file
+    conda create -n vehicle_proj python=3.12 -y
+    conda activate vehicle_proj
+    conda env list
+    add required modules to the requirements.txt
+    Do "pip install -r requirements.txt"
+4. Do pip list on terminal to make sure all required packages installed.
