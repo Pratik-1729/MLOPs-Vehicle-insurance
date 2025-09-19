@@ -23,3 +23,9 @@
 2. write an exception file and test it on demo.py
 3. EDA and feature eng. notebooks
 
+------------------------------------------DATA INGESTION---------------------------------------------------------
+1. Declared all constants in constants file
+2. Code add to configuration.mongo_db_connection.py and add functions for the connection
+3.Inside data_access folder add code to vehicle_insurance_data.py file that will use Mongodb connection
+4. add code to entity.config_entity.py file
+4. add code to entity.artifact_entity.py
